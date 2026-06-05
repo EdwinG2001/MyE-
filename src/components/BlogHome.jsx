@@ -9,7 +9,7 @@ const BlogHome = ({ setCurrentView }) => {
           Hola, mi amor hermosa
         </h1>
         <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: '#444', marginBottom: '2rem' }}>
-          He creado este pequeño espacio en la web solo para ti, Mi Reina. Porque los dos seremos ingenieros en sistemas y sabemos que el código también puede ser una carta de amor. Quería hacer algo diferente, algo interactivo y bien lindo para recordarte lo mucho que te amo y lo especial que eres para mí.
+          Diseñé este rincón interactivo en la web exclusivamente para ti, mi reina. Nuestra meta es ser ingenieros y no tengo dudas de que lo vas a lograr; yo estaré aquí para apoyarte en todo, devolviéndote un poquito de todo el amor que me das. Quería regalarte algo único y diferente para recordarte, de una forma linda, lo mucho que te amo y lo importante que eres en mi vida.
           <br /><br />
           Aquí abajo encontrarás unos jueguitos que preparé con mucho cariño. ¡Espero que te gusten!
         </p>
@@ -38,15 +38,15 @@ const BlogHome = ({ setCurrentView }) => {
         </div>
 
         <div className="glass game-card" onClick={() => setCurrentView('maze')}>
-          <svg 
-            width="48" 
-            height="48" 
-            viewBox="0 0 24 24" 
-            fill="none" 
-            stroke="#ff4b72" 
-            strokeWidth="2" 
-            strokeLinecap="round" 
-            strokeLinejoin="round" 
+          <svg
+            width="48"
+            height="48"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#ff4b72"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
             style={{ margin: '0 auto 1rem auto', display: 'block' }}
           >
             <rect x="3" y="3" width="18" height="18" rx="2" />

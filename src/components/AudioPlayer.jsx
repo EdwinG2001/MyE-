@@ -31,8 +31,8 @@ const AudioPlayer = () => {
     <div className="audio-player-fixed glass" style={{ padding: '10px 20px', borderRadius: '50px', display: 'flex', alignItems: 'center', gap: '15px' }}>
       <Music size={20} color="#ff4b72" className={isPlaying ? 'animate-pulse-heart' : ''} />
       <div style={{ display: 'flex', flexDirection: 'column' }}>
-        <span style={{ fontSize: '0.8rem', fontWeight: 'bold', color: '#ff4b72' }}>Nuestra Canción</span>
-        <span style={{ fontSize: '0.7rem', color: '#666' }}>(Puedes cambiarla luego)</span>
+        <span style={{ fontSize: '0.8rem', fontWeight: 'bold', color: '#ff4b72' }}>Una cancioncita linda amor jiji</span>
+        <span style={{ fontSize: '0.7rem', color: '#666' }}>(Puedo cambiarla luego si quieres amor)</span>
       </div>
       <button
         onClick={togglePlay}
