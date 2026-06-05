@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import confetti from 'canvas-confetti';
+import heartPuzzle from '../assets/heart_puzzle.png';
 
 const GRID_SIZE = 3;
 
@@ -100,7 +101,7 @@ const Puzzle = () => {
               style={{
                 width: '100%',
                 height: '100%',
-                backgroundImage: 'url(/heart_puzzle.png)',
+                backgroundImage: `url(${heartPuzzle})`,
                 backgroundSize: `${GRID_SIZE * 100}% ${GRID_SIZE * 100}%`,
                 backgroundPosition: `${bgPosX} ${bgPosY}`,
                 cursor: 'pointer',
