@@ -38,7 +38,24 @@ const BlogHome = ({ setCurrentView }) => {
         </div>
 
         <div className="glass game-card" onClick={() => setCurrentView('maze')}>
-          <img src="https://api.iconify.design/mdi:maze.svg?color=%23ff4b72" alt="maze" style={{ width: '48px', height: '48px', margin: '0 auto 1rem auto', display: 'block' }} />
+          <svg 
+            width="48" 
+            height="48" 
+            viewBox="0 0 24 24" 
+            fill="none" 
+            stroke="#ff4b72" 
+            strokeWidth="2" 
+            strokeLinecap="round" 
+            strokeLinejoin="round" 
+            style={{ margin: '0 auto 1rem auto', display: 'block' }}
+          >
+            <rect x="3" y="3" width="18" height="18" rx="2" />
+            <path d="M3 9h6V3" />
+            <path d="M15 3v6h6" />
+            <path d="M9 9v6H3" />
+            <path d="M15 9h6v6" />
+            <path d="M9 15h6v6" />
+          </svg>
           <h3>Encuentrame mi amor</h3>
           <p style={{ marginTop: '1rem', color: '#666' }}>Un laberinto donde tú (Milena) tienes que llegar hasta mí (Amor).</p>
           <button className="btn" style={{ marginTop: '1.5rem', width: '100%' }}>Jugar Laberinto</button>
